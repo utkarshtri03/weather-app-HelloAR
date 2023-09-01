@@ -8,8 +8,11 @@ const apikey = "29599ddba2c9faa63984f8cfb47116a6";
 
 const SearchBar = (props) => {
   const [text, setText] = useState("");
+
   const [place, setPlace] = useState("");
+
   const [miss, setMiss] = useState(false);
+
   const [load, setLoad] = useState(false);
 
   const handleInputChange = (event) => {
